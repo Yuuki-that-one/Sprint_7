@@ -1,0 +1,46 @@
+<div>POST to https://qa-scooter.praktikum-services.ru/api/v1/orders</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;firstName&quot;: &quot;Василий&quot;,
+    &quot;lastName&quot;: &quot;Котова&quot;,
+    &quot;address&quot;: &quot;Чехова площадь, 523&quot;,
+    &quot;metroStation&quot;: &quot;площадь Южная&quot;,
+    &quot;phone&quot;: &quot;+7(936)305-54-72&quot;,
+    &quot;rentTime&quot;: 3,
+    &quot;deliveryDate&quot;: 1679577295539,
+    &quot;comment&quot;: &quot;Uncertainty is inherently unsustainable. Eventually, everything either is or isn&#39;t.&quot;,
+    &quot;color&quot;: [
+        &quot;BLACK&quot;,
+        &quot;GREY&quot;
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-scooter.praktikum-services.ru/api/v1/orders&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;firstName&quot;: &quot;Василий&quot;,
+    &quot;lastName&quot;: &quot;Котова&quot;,
+    &quot;address&quot;: &quot;Чехова площадь, 523&quot;,
+    &quot;metroStation&quot;: &quot;площадь Южная&quot;,
+    &quot;phone&quot;: &quot;+7(936)305-54-72&quot;,
+    &quot;rentTime&quot;: 3,
+    &quot;deliveryDate&quot;: 1679577295539,
+    &quot;comment&quot;: &quot;Uncertainty is inherently unsustainable. Eventually, everything either is or isn&#39;t.&quot;,
+    &quot;color&quot;: [
+        &quot;BLACK&quot;,
+        &quot;GREY&quot;
+    ]
+}&#39;
+</div>
